@@ -127,3 +127,13 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# secrets
+secrets/
+
+# Idea
+.idea/
+
+# Google Sheets Secrets
+token.json
+credentials.json
