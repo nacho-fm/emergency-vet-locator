@@ -135,5 +135,7 @@ secrets/
 .idea/
 
 # Google Sheets Secrets
-token.json
+secrets/token.json
 credentials.json
+token.json
+tokens/
