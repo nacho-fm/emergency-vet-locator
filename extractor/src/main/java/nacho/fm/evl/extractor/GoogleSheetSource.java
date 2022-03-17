@@ -198,7 +198,6 @@ public class GoogleSheetSource {
                         System.err.println("Vet date parsing failed for " + newVet.name);
                         System.err.println("Failed date string: " + vetData.get(1).toString());
                         vetPOJOs.get(currentCity.orElse("")).vet(newVet);
-
                     }
                 }
             }

@@ -11,8 +11,8 @@ interface VetDao {
     @Query("SELECT * FROM vet ORDER BY name ASC")
     fun getAlphabetizedVets(): Flow<List<Vet>>
 
-    @Insert(onConflict = OnConflictStrategy.IGNORE)
-    suspend fun insert(vet: Vet)
+    // @Insert(onConflict = OnConflictStrategy.IGNORE)
+    // suspend fun insert(vet: Vet)
 
     @Insert
     fun insertAll(vararg vets: Vet)
