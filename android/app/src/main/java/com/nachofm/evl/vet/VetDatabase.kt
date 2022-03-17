@@ -55,7 +55,7 @@ public abstract class VetDatabase : RoomDatabase() {
             vetDao.deleteAll()
 
             // Add sample vets.
-            vetDao.insert(
+            vetDao.insertAll(
                 Vet(0, "Hello", "2813308004", "dev@nacho.fm"),
                 Vet(2, "World!", "5555555555", "dev@nacho.fm"))
         }
