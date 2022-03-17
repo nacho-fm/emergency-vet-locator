@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Emergency Vet Locator</string>
+    <string name="add_vet">Add Vet</string>
+    <string name="hint_vet">Vet...</string>
+    <string name="button_save">Save</string>
+    <string name="empty_not_saved">Failed to save Vet.</string>
 </resources>
