@@ -21,7 +21,7 @@ class VetListAdapter : ListAdapter<Vet, VetListAdapter.VetViewHolder>(WordsCompa
     }
 
     class VetViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
-        private val wordItemView: TextView = itemView.findViewById(R.id.textView)
+        private val wordItemView: TextView = itemView.findViewById(R.id.vetTitle)
 
         fun bind(text: String?) {
             wordItemView.text = text

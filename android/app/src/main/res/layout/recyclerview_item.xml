@@ -1,13 +1,36 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content">
-
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp" >
     <TextView
-        android:id="@+id/textView"
-        style="@style/word_title"
+        android:id="@+id/vetTitle"
+        style="@style/vet_title"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@android:color/holo_orange_light" />
-</LinearLayout>
+        android:textColor="@color/colorPrimaryDark"
+        android:background="@color/white" />
+    <TextView
+        android:id="@+id/vetStatus"
+        style="@style/vet_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimaryDark"
+        android:background="@color/white"
+        android:layout_below="@+id/vetTitle" />
+    <ImageView
+        android:id="@+id/vetMap"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimaryDark"
+        android:layout_toEndOf="@+id/vetTitle" />
+    <ImageView
+        android:id="@+id/vetPhone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimaryDark"
+        android:layout_toEndOf="@+id/vetMap" />
+
+
+</RelativeLayout>
